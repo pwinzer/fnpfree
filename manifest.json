@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+
+  "name": "FNP F'Free",
+  "description": "This extension allows to bypass the shitty paywall on the FNP website.",
+  "version": "0.1",
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab"
+  ]
+}

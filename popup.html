@@ -1,0 +1,40 @@
+<!doctype html>
+<!--
+ This page is shown when the extension button is clicked, because the
+ "browser_action" field in manifest.json contains the "default_popup" key with
+ value "popup.html".
+ -->
+<html>
+  <head>
+    <title>Free FNP</title>
+    <style type="text/css">
+      body {
+        margin: 10px;
+        white-space: nowrap;
+				align-items: center;
+      }
+			
+      h1 {
+        font-size: 15px;
+      }
+
+      #hack_button {
+				-webkit-border-radius: 28;
+				-moz-border-radius: 28;
+				border-radius: 28px;
+				font-size: 15px;
+				font-family: Courier New;
+				color: #1c7506;
+				background: #000000;
+      }
+			
+    </style>
+
+    <script src="popup.js"></script>
+  </head>
+
+  <body>
+    <h1>Hack FNP?</h1>
+		<button id="hack_button">Hack</button>
+  </body>
+</html>
